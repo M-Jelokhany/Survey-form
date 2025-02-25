@@ -50,6 +50,15 @@ public class informationPage {
         level3.setBounds(190, 160, 100, 20);
         JRadioButton level4 = new JRadioButton("Without familiarity");
         level4.setFont(font);
+        levelLabel.setBounds(10, 130, 250, 20);
+
+        JRadioButton level1 = new JRadioButton("Beginner");
+        level1.setBounds(10, 160, 100, 20);
+        JRadioButton level2 = new JRadioButton("Intermediate");
+        level2.setBounds(100, 160, 100, 20);
+        JRadioButton level3 = new JRadioButton("Advance");
+        level3.setBounds(190, 160, 100, 20);
+        JRadioButton level4 = new JRadioButton("Without familiarity");
         level4.setBounds(280, 160, 150, 20);
 
         // Group the radio buttons
