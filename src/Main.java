@@ -1,9 +1,13 @@
 import javax.swing.*;
 import packages.informationPage;
 
+import java.awt.*;
+
 public class Main {
 
     public static void main(String[] args) {
+        Font font = new Font("Arial" , Font.BOLD , 20);
+
         // Create and configure the main frame
         JFrame frame = new JFrame("Survey form");
         frame.setSize(600, 600);
@@ -18,10 +22,12 @@ public class Main {
 
         // Create title label
         JLabel title = new JLabel("Survey form");
+        title.setFont(font);
         title.setBounds(10, 10, 100, 20);
 
         // Create start button
         JButton startButton = new JButton("Start!");
+        startButton.setFont(font);
         startButton.setBounds(10, 40, 100, 20);
 
         // Add components to the panel
