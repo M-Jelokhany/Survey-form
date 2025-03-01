@@ -77,16 +77,25 @@ public class informationPage {
         // Add components to the panel
         panel.add(nameLabel);
         panel.add(nameField);
+        panel.add(Box.createRigidArea(new Dimension(0, 10)));
+
         panel.add(ageLabel);
         panel.add(ageField);
+        panel.add(Box.createRigidArea(new Dimension(0, 10)));
+
         panel.add(emailLabel);
         panel.add(emailField);
+        panel.add(Box.createRigidArea(new Dimension(0, 10)));
+
         panel.add(levelLabel);
         panel.add(level1);
         panel.add(level2);
         panel.add(level3);
         panel.add(level4);
+        panel.add(Box.createRigidArea(new Dimension(0, 10)));
+
         panel.add(nextButton);
+
 
         // Add panel to the frame
         frame.add(panel);

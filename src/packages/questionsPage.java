@@ -18,16 +18,22 @@ public class questionsPage {
         JLabel question1 = new JLabel("How attractive is the user interface in your opinion?");
         question1.setFont(font);
 
+
         JRadioButton radio1_1 = new JRadioButton("1");
         radio1_1.setFont(font);
+        panel.add(Box.createRigidArea(new Dimension(10, 0)));
         JRadioButton radio1_2 = new JRadioButton("2");
         radio1_2.setFont(font);
+        panel.add(Box.createRigidArea(new Dimension(10, 0)));
         JRadioButton radio1_3 = new JRadioButton("3");
         radio1_3.setFont(font);
+        panel.add(Box.createRigidArea(new Dimension(10, 0)));
         JRadioButton radio1_4 = new JRadioButton("4");
         radio1_4.setFont(font);
+        panel.add(Box.createRigidArea(new Dimension(10, 0)));
         JRadioButton radio1_5 = new JRadioButton("5");
         radio1_5.setFont(font);
+        panel.add(Box.createRigidArea(new Dimension(10, 0)));
 
 
         ButtonGroup group1 = new ButtonGroup();
@@ -64,7 +70,7 @@ public class questionsPage {
         // Question 3
         JLabel question3 = new JLabel("How simple and user-friendly is the design of software pages?");
         question3.setFont(font);
-        question3.setBounds(10, 170, 300, 20);
+
 
         JRadioButton radio3_1 = new JRadioButton("1");
         radio3_1.setFont(font);
@@ -130,6 +136,7 @@ public class questionsPage {
         panel.add(radio1_3);
         panel.add(radio1_4);
         panel.add(radio1_5);
+        panel.add(Box.createRigidArea(new Dimension(0, 10)));
 
         panel.add(question2);
         panel.add(radio2_1);
@@ -137,6 +144,7 @@ public class questionsPage {
         panel.add(radio2_3);
         panel.add(radio2_4);
         panel.add(radio2_5);
+        panel.add(Box.createRigidArea(new Dimension(0, 10)));
 
         panel.add(question3);
         panel.add(radio3_1);
@@ -144,6 +152,7 @@ public class questionsPage {
         panel.add(radio3_3);
         panel.add(radio3_4);
         panel.add(radio3_5);
+        panel.add(Box.createRigidArea(new Dimension(0, 10)));
 
         panel.add(question4);
         panel.add(radio4_1);
@@ -151,6 +160,7 @@ public class questionsPage {
         panel.add(radio4_3);
         panel.add(radio4_4);
         panel.add(radio4_5);
+        panel.add(Box.createRigidArea(new Dimension(0, 10)));
 
         panel.add(nextButton);
 

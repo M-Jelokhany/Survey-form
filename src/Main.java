@@ -29,6 +29,7 @@ public class Main {
         // Create start button
         JButton startButton = new JButton("Start!");
         startButton.setFont(font);
+        startButton.setHorizontalAlignment(JButton.CENTER);
 
 
         // Add components to the panel
