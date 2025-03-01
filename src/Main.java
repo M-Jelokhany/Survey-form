@@ -13,29 +13,31 @@ public class Main {
         frame.setSize(600, 600);
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setLayout(null);
+        frame.setLayout(new BorderLayout());
 
         // Create and configure the main panel
         JPanel panel = new JPanel();
-        panel.setLayout(null);
-        panel.setBounds(0, 0, 600, 600);
+        panel.setLayout(new BorderLayout());
+        panel.setPreferredSize(new Dimension(600, 600));
+        panel.setBackground(Color.YELLOW);
 
         // Create title label
         JLabel title = new JLabel("Survey form");
         title.setFont(font);
-        title.setBounds(10, 10, 100, 20);
+        title.setHorizontalAlignment(JLabel.CENTER);
 
         // Create start button
         JButton startButton = new JButton("Start!");
         startButton.setFont(font);
-        startButton.setBounds(10, 40, 100, 20);
+        startButton.setHorizontalAlignment(JButton.CENTER);
+
 
         // Add components to the panel
-        panel.add(title);
-        panel.add(startButton);
+        panel.add(title, BorderLayout.NORTH);
+        panel.add(startButton, BorderLayout.SOUTH);
 
         // Add panel to the frame
-        frame.add(panel);
+        frame.add(panel, BorderLayout.CENTER);
 
         // Add action listener to the start button
         startButton.addActionListener(e -> {
