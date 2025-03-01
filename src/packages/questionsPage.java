@@ -12,6 +12,7 @@ public class questionsPage {
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.PAGE_AXIS));
         panel.setPreferredSize(new Dimension(600, 600));
+        panel.setBackground(Color.YELLOW);
 
         // Question 1
         JLabel question1 = new JLabel("How attractive is the user interface in your opinion?");

@@ -12,6 +12,7 @@ public class thankYouPage {
         JPanel panel = new JPanel();
         panel.setLayout(new BorderLayout());
         panel.setPreferredSize(new Dimension(600, 600));
+        panel.setBackground(Color.YELLOW);
 
         // Create thank you label
         JLabel thankYouLabel = new JLabel("Thanks for your participation!");

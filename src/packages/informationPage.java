@@ -12,6 +12,7 @@ public class informationPage {
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.PAGE_AXIS));
         panel.setPreferredSize(new Dimension(600, 600));
+        panel.setBackground(Color.YELLOW);
 
         // Name Label and Text Field
         JLabel nameLabel = new JLabel("Name");
